@@ -1,0 +1,20 @@
+header{
+    display: flex;
+
+}
+
+.introduction{
+  border: 2px solid black; 
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.columns{
+  color:black;
+}
+
+.middle-section{
+    border: 2px solid black; 
+    display:flex;
+    justify-content: space-evenly;
+}
