@@ -1,0 +1,20 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+header {
+  display: flex;
+}
+.introduction {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+}
+.columns {
+  color: blue;
+}
+.middle-section {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+}
