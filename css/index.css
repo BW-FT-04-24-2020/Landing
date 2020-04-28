@@ -7,6 +7,7 @@
 }
 header {
   display: flex;
+  justify-content: space-between;
   background-color: floralwhite;
 }
 header h1 {
@@ -17,14 +18,36 @@ header h1 {
   color: black;
   font-size: 30px;
 }
+header nav {
+  font-family: 'Baloo Paaji 2', cursive;
+  font-size: 20px;
+  padding-top: 30px;
+}
+header nav a {
+  padding: 15px;
+  padding-right: 100px;
+}
 .introduction {
   background-color: DarkSeaGreen;
 }
-.introduction img {
+.introduction .introductionComponents {
+  display: flex;
+  justify-content: center;
+}
+.introduction .introductionComponents img {
   width: 1000px;
   height: 700px;
-  padding-left: 800px;
+  padding-left: 400px;
+  padding-right: 150px;
   padding-top: 200px;
+  padding-bottom: 100px;
+}
+.introduction .introductionComponents .introDescription {
+  font-family: 'Baloo Paaji 2', cursive;
+  font-size: 20px;
+  padding-top: 300px;
+  padding-left: 150px;
+  text-align: center;
 }
 .middle-section {
   position: relative;
