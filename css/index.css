@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'Baloo Paaji 2';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Baloo Paaji 2 Regular'), local('BalooPaaji2-Regular'), url(https://fonts.gstatic.com/s/baloopaaji2/v1/i7dMIFFzbz-QHZUdV9_UGWZuYFI.ttf) format('truetype');
-}
 header {
   display: flex;
   justify-content: space-evenly;
@@ -38,10 +31,11 @@ header nav a {
 .introduction .introductionComponents img {
   width: 1000px;
   height: 700px;
-  padding-left: 400px;
-  padding-right: 150px;
-  padding-top: 200px;
-  padding-bottom: 100px;
+  margin-left: 400px;
+  margin-right: 150px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  border-radius: 30px;
 }
 .introduction .introductionComponents .introDescription {
   font-family: 'Baloo Paaji 2', cursive;
@@ -49,6 +43,9 @@ header nav a {
   padding-top: 300px;
   padding-left: 150px;
   text-align: center;
+}
+.introduction .introductionComponents .introDescription h2 {
+  font-size: 50px;
 }
 .middle-section {
   position: relative;
@@ -63,6 +60,7 @@ header nav a {
 .middle-section img {
   width: 100%;
   height: 1000px;
+  border-radius: 10px;
 }
 .middle-section .column {
   position: absolute;
@@ -72,4 +70,21 @@ header nav a {
   font-size: 50px;
   margin-bottom: 50px;
   padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.bottom-section .bottom-content {
+  width: 100%;
+  height: 1000px;
+}
+@font-face {
+  font-family: 'Baloo Paaji 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Baloo Paaji 2 Regular'), local('BalooPaaji2-Regular'), url(https://fonts.gstatic.com/s/baloopaaji2/v1/i7dMIFFzbz-QHZUdV9_UGWZuYFI.ttf) format('truetype');
+}
+.bottom-section .bottom-content {
+  width: 100%;
+  height: 1000px;
 }
