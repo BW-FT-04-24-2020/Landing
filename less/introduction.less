@@ -40,7 +40,7 @@ header{
         margin-left: 400px;
         margin-right: 150px;
         margin-top: 200px;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
         border-radius: 30px;
       }
       .introDescription{
@@ -68,6 +68,27 @@ header{
       display:flex;
       flex-direction: column;
       align-items: center;
+      width: 100%;
+      
+      .middlePart{
+        .teamMembersDescriptions1{
+            display:flex;
+            justify-content: space-evenly;
+            p{
+                //margin: 0px;
+                //padding:0px;
+            }
+
+        }
+        .teamMembersDescriptions2{
+            display:flex;
+            justify-content: space-evenly;
+            p{
+                //margin: 0px;
+                //padding:0px;
+            }
+        }
+    }
   
       .introDescriptionAbout{
         font-family: @baloo;
@@ -81,14 +102,10 @@ header{
         }
         p{
             text-align:center;
-            padding-left: 300px;
-            padding-right: 300px;
+            //padding-left: 300px;
+            //padding-right: 300px;
         }
-        .btnAbout{
-            .custom-btn(20px , @baloo);
-            margin-left: 900px;
-            
-        }
+        
       }
       
     }
