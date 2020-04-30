@@ -96,15 +96,31 @@ header .loginBtn {
   display: flex;
   justify-content: space-evenly;
 }
+.introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions1 .student {
+  text-align: center;
+  width: 400px;
+  font-size: 15px;
+}
+.introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions1 .student img {
+  width: 200px;
+}
 .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 {
   display: flex;
   justify-content: space-evenly;
 }
+.introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 .student {
+  text-align: center;
+  width: 400px;
+  font-size: 15px;
+}
+.introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 .student img {
+  width: 200px;
+}
 .introductionAbout .introductionComponentsAbout .introDescriptionAbout {
   font-family: 'Baloo Paaji 2', cursive;
   font-size: 20px;
-  padding-top: 300px;
-  padding-left: 150px;
+  padding-top: 100px;
+  padding-left: 100px;
   padding-bottom: 300px;
   text-align: center;
 }
@@ -112,7 +128,9 @@ header .loginBtn {
   font-size: 50px;
 }
 .introductionAbout .introductionComponentsAbout .introDescriptionAbout p {
+  margin-left: 500px;
   text-align: center;
+  width: 600px;
 }
 .middle-section {
   position: relative;
@@ -198,12 +216,6 @@ header .loginBtn {
   background-color: steelblue;
   color: white;
   height: 40px;
-}
-.middlePart .teamMembersDescriptions1 {
-  display: flex;
-}
-.middlePart .teamMembersDescriptions2 {
-  display: flex;
 }
 .bottom-section .bottom-content {
   width: 100%;
