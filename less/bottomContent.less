@@ -1,5 +1,8 @@
 .bottom-section{
    .bottom-content{
+        width: 100%;
+        height: 1000px;
+        font-family: @baloo;
        .favoritesMainTitle{
             background-color:floralwhite;
             font-size: 60px;
@@ -7,28 +10,138 @@
             text-align: center;
             border-bottom: 2px solid black;
             
-       }
-        width: 100%;
-        height: 1000px;
-        .favoritesListSection{
+        }
+        
+        .favoritesListSection1{
+            position: relative;
+            border-bottom: 2px solid black;
+            
+            img{
+                background-size: 300px 100px;
+                height: 500px;
+                width:100%; 
+                margin:0px;     
+            }
+            .columnsBottom1{
+                position: absolute;
+                top: 50%;
+                left: 40%;
+                transform: translate(-30%, -50%);
+                color: black;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                
+                
+                h3{
+                    
+                    font-size:50px;
+                    font-family: @baloo;
+                    text-align: center;
+                    margin-top: 100px;
+                    width: 1000px;
+                    
+                }
+
+                .favoritesListBox{
+                    .list123{
+                       
+                        background-color: honeydew;
+                        
+                        
+                    }
+                }
+
+            } 
+        }
+        
+        .favoritesListSection2{
+            position:relative;
             display: flex;
             justify-content: space-evenly;
             border-bottom: 2px solid black;
-            
-            h3{
-                font-size:50px;
-                font-family: @baloo;
-                text-align: center;
-                margin-top: 100px;
+            img{
+                background-size: 300px 100px;
+                height: 500px;
+                width:100%; 
+                margin:0px;     
             }
-        }    
+            .columnsBottom2{
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                position: absolute;
+                top: 50%;
+                left: 40%;
+                transform: translate(-30%, -50%);
+                color: black;
+                
+            
+                h3{
+                    font-size:50px;
+                    font-family: @baloo;
+                    text-align: center;
+                    margin-top: 100px;
+                    width: 1000px;
+                
+                }
+                .favoritesListBox{
+                    .list123{
+                    background-color: antiquewhite;
+                    }
+                }
+            }  
+        }
+       .favoritesListSection3{  
+            position:relative;
+            display: flex;
+            justify-content: space-evenly;
+            border-bottom: 2px solid black;
+            img{
+                background-size: 300px 100px;
+                height: 500px;
+                width:100%; 
+                margin: 0px; 
+                
+            }
+            .columnsBottom3{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+
+                position: absolute;
+                top: 50%;
+                left: 40%;
+                transform: translate(-30%, -50%);
+                color: black;
+                
+                
+
+                h3{
+                    
+                    font-size:50px;
+                    font-family: @baloo;
+                    text-align: center;
+                    margin-top: 100px;
+                    width: 1000px;;
+                    
+                }
+                .favoritesListBox{
+
+                }
+            }  
+       }
+        
         .favoritesListBox{
+            
             font-size:40px;
+            width: 100%;
             
             .list123{
                 margin:30px;
                 padding:20px;
-                background-color: darkseagreen;
+                background-color: azure;
                 text-align: center;
                 border-radius: 10px;
                 cursor: pointer;

@@ -57,16 +57,19 @@ header .loginBtn {
   margin-top: 200px;
   margin-bottom: 20px;
   border-radius: 30px;
+  transform: translate(-15%, -8%);
 }
 .introduction .introductionComponents .introDescription {
   font-family: 'Baloo Paaji 2', cursive;
   font-size: 20px;
   padding-top: 300px;
-  padding-left: 150px;
+  padding-left: 250px;
   text-align: center;
+  transform: translate(-10%, -15%);
 }
 .introduction .introductionComponents .introDescription h2 {
   font-size: 50px;
+  transform: translate(-3%, -10%);
 }
 .introduction .introductionComponents .introDescription .btn {
   font-size: 20px;
@@ -82,6 +85,7 @@ header .loginBtn {
   text-align: center;
   padding-top: 10px;
   margin-left: 140px;
+  transform: translate(-15%, -20%);
 }
 .introductionAbout {
   background-color: DarkSeaGreen;
@@ -97,6 +101,8 @@ header .loginBtn {
   justify-content: space-evenly;
 }
 .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions1 .student {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   width: 400px;
   font-size: 15px;
@@ -109,9 +115,12 @@ header .loginBtn {
   justify-content: space-evenly;
 }
 .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 .student {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   width: 400px;
   font-size: 15px;
+  margin-top: 30px;
 }
 .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 .student img {
   width: 200px;
@@ -136,7 +145,6 @@ header .loginBtn {
   position: relative;
   text-align: center;
   color: white;
-  padding-bottom: 40px;
   padding-top: 0px;
   font-family: 'Baloo Paaji 2', cursive;
 }
@@ -220,6 +228,7 @@ header .loginBtn {
 .bottom-section .bottom-content {
   width: 100%;
   height: 1000px;
+  font-family: 'Baloo Paaji 2', cursive;
 }
 .bottom-section .bottom-content .favoritesMainTitle {
   background-color: floralwhite;
@@ -228,24 +237,105 @@ header .loginBtn {
   text-align: center;
   border-bottom: 2px solid black;
 }
-.bottom-section .bottom-content .favoritesListSection {
-  display: flex;
-  justify-content: space-evenly;
+.bottom-section .bottom-content .favoritesListSection1 {
+  position: relative;
   border-bottom: 2px solid black;
 }
-.bottom-section .bottom-content .favoritesListSection h3 {
+.bottom-section .bottom-content .favoritesListSection1 img {
+  background-size: 300px 100px;
+  height: 500px;
+  width: 100%;
+  margin: 0px;
+}
+.bottom-section .bottom-content .favoritesListSection1 .columnsBottom1 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-30%, -50%);
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.bottom-section .bottom-content .favoritesListSection1 .columnsBottom1 h3 {
   font-size: 50px;
   font-family: 'Baloo Paaji 2', cursive;
   text-align: center;
   margin-top: 100px;
+  width: 1000px;
+}
+.bottom-section .bottom-content .favoritesListSection1 .columnsBottom1 .favoritesListBox .list123 {
+  background-color: honeydew;
+}
+.bottom-section .bottom-content .favoritesListSection2 {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 2px solid black;
+}
+.bottom-section .bottom-content .favoritesListSection2 img {
+  background-size: 300px 100px;
+  height: 500px;
+  width: 100%;
+  margin: 0px;
+}
+.bottom-section .bottom-content .favoritesListSection2 .columnsBottom2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-30%, -50%);
+  color: black;
+}
+.bottom-section .bottom-content .favoritesListSection2 .columnsBottom2 h3 {
+  font-size: 50px;
+  font-family: 'Baloo Paaji 2', cursive;
+  text-align: center;
+  margin-top: 100px;
+  width: 1000px;
+}
+.bottom-section .bottom-content .favoritesListSection2 .columnsBottom2 .favoritesListBox .list123 {
+  background-color: antiquewhite;
+}
+.bottom-section .bottom-content .favoritesListSection3 {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 2px solid black;
+}
+.bottom-section .bottom-content .favoritesListSection3 img {
+  background-size: 300px 100px;
+  height: 500px;
+  width: 100%;
+  margin: 0px;
+}
+.bottom-section .bottom-content .favoritesListSection3 .columnsBottom3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-30%, -50%);
+  color: black;
+}
+.bottom-section .bottom-content .favoritesListSection3 .columnsBottom3 h3 {
+  font-size: 50px;
+  font-family: 'Baloo Paaji 2', cursive;
+  text-align: center;
+  margin-top: 100px;
+  width: 1000px;
 }
 .bottom-section .bottom-content .favoritesListBox {
   font-size: 40px;
+  width: 100%;
 }
 .bottom-section .bottom-content .favoritesListBox .list123 {
   margin: 30px;
   padding: 20px;
-  background-color: darkseagreen;
+  background-color: azure;
   text-align: center;
   border-radius: 10px;
   cursor: pointer;

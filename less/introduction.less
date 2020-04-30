@@ -42,19 +42,23 @@ header{
         margin-top: 200px;
         margin-bottom: 20px;
         border-radius: 30px;
+        transform: translate(-15%, -8%);
       }
       .introDescription{
         font-family: @baloo;
         font-size: 20px;
         padding-top: 300px;
-        padding-left: 150px;
+        padding-left: 250px;
         text-align:center;
+        transform: translate(-10%, -15%);
         h2{
           font-size: 50px;
+          transform: translate(-3%, -10%);
         }
         .btn{
             .custom-btn(20px , @baloo);
             margin-left: 140px;
+            transform: translate(-15%, -20%);
             
         }
       }
@@ -75,6 +79,8 @@ header{
             display:flex;
             justify-content: space-evenly;
             .student{
+              display: flex;
+              flex-direction: column;
               text-align:center;
               width: 400px;
               font-size: 15px;
@@ -88,9 +94,12 @@ header{
             display:flex;
             justify-content: space-evenly;
             .student{
+              display: flex;
+              flex-direction: column;
               text-align:center;
               width: 400px;
               font-size: 15px;
+              margin-top: 30px;
               img{
                 width: 200px;
               }
