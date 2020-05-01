@@ -169,6 +169,11 @@ header .loginBtn a {
     height: 20%;
   }
 }
+@media (max-width: 650px) {
+  .introduction .introductionComponents img {
+    margin-left: 0px;
+  }
+}
 @media (max-width: 600px) {
   .introduction .introductionComponents img {
     margin-top: 80px;
@@ -512,6 +517,11 @@ header .loginBtn a {
     padding-left: 0px;
   }
 }
+@media (max-width: 800px) {
+  .introductionAbout .introDescriptionAbout {
+    font-size: 17px;
+  }
+}
 @media (max-width: 600px) {
   .introductionAbout .introDescriptionAbout {
     font-size: 15px;
@@ -519,7 +529,7 @@ header .loginBtn a {
 }
 @media ( max-width: 500px ) {
   .introductionAbout .introDescriptionAbout {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 .introductionAbout .introDescriptionAbout h2 {
@@ -550,7 +560,7 @@ header .loginBtn a {
 }
 @media (max-width: 800px) {
   .introductionAbout .introDescriptionAbout p {
-    margin-left: 100px;
+    margin-left: 40px;
   }
 }
 @media (max-width: 600px) {
