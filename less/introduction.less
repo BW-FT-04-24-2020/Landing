@@ -1,8 +1,4 @@
-html,body
-{
-   min-width: 700px;
-   width: 100%;
-}
+
 
 header{
     display: flex;
@@ -104,6 +100,10 @@ header{
         margin-bottom: 20px;
         border-radius: 30px;
         transform: translate(-15%, -8%);
+        @media @higher{
+          width: 600px;
+          height:500px;
+        }
         @media @desktop{
           width: 50%;
           height: 0%;
@@ -111,10 +111,10 @@ header{
           margin-right: 50px;
           
         }
-        @media @higher{
-          width: 600px;
-          height:500px;
-        }
+
+        @media @middlelow{
+          margin-top: 400px;
+       
 
         @media @mobile{
           margin-top: 100px;
@@ -127,8 +127,6 @@ header{
           
         }
 
-        @media @middlelow{
-          margin-top: 400px;
          
 
         }
@@ -149,6 +147,9 @@ header{
         padding-left: 250px;
         text-align:center;
         transform: translate(-10%, -15%);
+        @media @higher{
+          padding-left: 150px;
+        }
         @media @desktop{
           width: 55%;
           height: 65%;
@@ -167,21 +168,20 @@ header{
         @media @below{
           font-size: 15px;
         }
-        @media @higher{
-          padding-left: 150px;
-      }
+        
         h2{
           font-size: 50px;
           transform: translate(-3%, -10%);
+          @media @higher{
+            font-size: 30px;
+        }
           @media @desktop{
             font-size: 30px;
           }
           @media @below{
             font-size: 50px;
           }
-          @media @higher{
-            font-size: 30px;
-        }
+          
         }
         .btn{
             .custom-btn(20px , @baloo);
@@ -194,17 +194,19 @@ header{
             @media @highlow{
               margin-left: 110px;
             }
-            @media @mobile{
-              margin-left: 80px;
-              width: 100px;
+            
+            @media @middle{
+              margin-left:100px;
             }
             @media @middlelow{
               margin-left:70px;
             }
-            @media @middle{
-              margin-left:100px;
+            @media @mobile{
+              margin-left: 80px;
+              width: 100px;
+            }
                   
-              }
+              
             @media @below{
               width: 100px;
               font-size: 15px;
@@ -232,6 +234,7 @@ header{
         .teamMembersDescriptions1{
             display:flex;
             justify-content: space-evenly;
+            
             @media @mobile{
               
               display: flex;
@@ -248,8 +251,18 @@ header{
               //@media @large{
                 //width: 200px;
               //}
+              @media @higher{
+                width: 350px;
+              }
+              @media @belowhigher{
+                width: 250px;
+              }
+              @media @belowhigher1200{
+                width: 150px;
+              }
+
               @media @desktop{
-                width: 200px;
+                width: 100px;
                 font-size: 12px;
                 margin-right: 20px;
                 
@@ -264,9 +277,7 @@ header{
                     
                 }
 
-              @media @higher{
-                width: 350px;
-              }
+             
 
               //@media @mobile{
                 //width: 40px;
@@ -286,7 +297,7 @@ header{
                 margin-left: 100px;
                 margin-top:20px;
                 @media @desktop{
-                  width: 150px;
+                  width: 100px;
                   margin-left: 0px;
                   margin-right: 10px;
                   
@@ -321,10 +332,15 @@ header{
               font-size: 20px;
               font-weight: bold;
               margin-top: 30px;
+              @media @higher{
+                width: 250px;
+              }
               @media @desktop{
-                width: 200px;
+                width: 100px;
                 font-size: 12px;
-                margin-left: 30px;
+                margin-left: 0px;
+                padding-right: 0px;
+                margin-right:0px;
               }
 
               @media @highlow{
@@ -335,9 +351,7 @@ header{
                     
               }
 
-              @media @higher{
-                width: 250px;
-              }
+              
 
               //@media @mobile{
                 //width: 40px;
@@ -358,7 +372,7 @@ header{
                 margin-left: 70px;
                 margin-top:10px;
                 @media @desktop{
-                  width: 150px;
+                  width: 100px;
                   margin-left: 0px;
 
                 }
@@ -405,14 +419,11 @@ header{
             width: 600px;
             //padding-left: 300px;
             //padding-right: 300px;
+            @media @higher{
+              margin-left: 50px;
+          }
             @media @desktop{
               margin-left: 200px;
-            }
-
-            @media @mobile{
-              width: 300px;
-              margin-right: 200px;
-              margin-left: 0px;
             }
             @media @middlelow{
               margin-left: 00px;
@@ -422,9 +433,14 @@ header{
                 margin-left: 100px;
                     
             }
-            @media @higher{
-              margin-left: 200px;
-          }
+            @media @mobile{
+              width: 300px;
+              margin-right: 200px;
+              margin-left: 0px;
+            }
+            
+            
+            
 
             
           
