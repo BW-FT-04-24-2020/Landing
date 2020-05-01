@@ -86,14 +86,16 @@ header{
     .introductionComponents{
       display:flex;
       justify-content: center;
-      @media @mobile{
-        flex-direction: column;
-        padding-left: 10px;
-        
-      }
       @media @above{
         margin-left: 200px;
       }
+      @media @mobile{
+        flex-direction: column;
+        padding-left: 10px;
+        margin-left: 100px;
+        
+      }
+      
       
       
   
@@ -116,10 +118,14 @@ header{
         }
         @media @desktop{
           width: 50%;
-          height: 0%;
+          height: 40%;
           margin-left: 80px;
           margin-right: 50px;
           
+        }
+        @media @highlow{
+          width:30%;
+          height: 20%;
         }
 
         @media @middlelow{
@@ -127,7 +133,7 @@ header{
        
 
         @media @mobile{
-          margin-top: 100px;
+          margin-top: 30px;
           margin-right: 50px;
           margin-left: 80px;
           width: 60%;
@@ -173,6 +179,11 @@ header{
           width: 300px;
         }
         @media @middlelow{
+          margin-left: 20px;
+        }
+
+        @media @mobile{
+          padding-left: 0px;
           margin-left: 40px;
         }
         @media @below{
