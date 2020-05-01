@@ -400,7 +400,7 @@ header .loginBtn a {
 }
 @media ( max-width: 500px ) {
   .introductionAbout .introDescriptionAbout p {
-    width: 300px;
+    width: 100px;
     margin-right: 300px;
   }
 }
