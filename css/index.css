@@ -242,7 +242,7 @@ header .loginBtn a {
   .introductionAbout .middlePart .teamMembersDescriptions1 {
     display: flex;
     flex-direction: column;
-    margin-left: 280px;
+    margin-left: 150px;
   }
 }
 .introductionAbout .middlePart .teamMembersDescriptions1 .student {
@@ -305,7 +305,7 @@ header .loginBtn a {
   .introductionAbout .middlePart .teamMembersDescriptions2 {
     display: flex;
     flex-direction: column;
-    margin-left: 250px;
+    margin-left: 120px;
   }
 }
 .introductionAbout .middlePart .teamMembersDescriptions2 .student {
@@ -400,8 +400,8 @@ header .loginBtn a {
 }
 @media ( max-width: 500px ) {
   .introductionAbout .introDescriptionAbout p {
-    width: 100px;
-    margin-right: 300px;
+    width: 300px;
+    margin-right: 20px;
   }
 }
 @media (max-width: 600px) {
