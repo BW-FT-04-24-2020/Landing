@@ -34,9 +34,19 @@ header nav {
   padding-top: 30px;
   padding-left: 500px;
 }
+@media ( max-width: 500px ) {
+  header nav {
+    padding-left: 100px;
+  }
+}
 header nav a {
   padding: 15px;
   padding-right: 100px;
+}
+@media ( max-width: 500px ) {
+  header nav a {
+    padding-right: 10px;
+  }
 }
 header .loginBtn {
   font-size: 20px;
@@ -54,6 +64,11 @@ header .loginBtn {
   margin-top: 15px;
 }
 @media (max-width: 1000px) {
+  header .loginBtn {
+    width: 400px;
+  }
+}
+@media ( max-width: 500px ) {
   header .loginBtn {
     width: 400px;
   }
@@ -83,6 +98,11 @@ header .loginBtn {
     margin-right: 50px;
   }
 }
+@media ( max-width: 500px ) {
+  .introduction .introductionComponents img {
+    margin-top: 400px;
+  }
+}
 .introduction .introductionComponents .introDescription {
   font-family: 'Baloo Paaji 2', cursive;
   font-size: 20px;
@@ -98,6 +118,7 @@ header .loginBtn {
     margin-left: 0px;
     font-size: 20px;
     margin-right: 10px;
+    padding-left: 100px;
   }
 }
 .introduction .introductionComponents .introDescription h2 {
@@ -128,7 +149,12 @@ header .loginBtn {
 @media (max-width: 1000px) {
   .introduction .introductionComponents .introDescription .btn {
     width: 125px;
-    margin-left: 90px;
+    margin-left: 140px;
+  }
+}
+@media ( max-width: 500px ) {
+  .introduction .introductionComponents .introDescription .btn {
+    margin-left: 80px;
   }
 }
 .introductionAbout {
@@ -140,11 +166,18 @@ header .loginBtn {
   align-items: center;
   width: 100%;
 }
-.introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions1 {
+.introductionAbout .middlePart .teamMembersDescriptions1 {
   display: flex;
   justify-content: space-evenly;
 }
-.introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions1 .student {
+@media ( max-width: 500px ) {
+  .introductionAbout .middlePart .teamMembersDescriptions1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 280px;
+  }
+}
+.introductionAbout .middlePart .teamMembersDescriptions1 .student {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -152,30 +185,42 @@ header .loginBtn {
   font-size: 20px;
 }
 @media (max-width: 1000px) {
-  .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions1 .student {
+  .introductionAbout .middlePart .teamMembersDescriptions1 .student {
     width: 200px;
     font-size: 12px;
     margin-right: 20px;
   }
 }
-.introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions1 .student img {
+.introductionAbout .middlePart .teamMembersDescriptions1 .student img {
   width: 200px;
   border-radius: 10px;
   margin-left: 100px;
   margin-top: 20px;
 }
 @media (max-width: 1000px) {
-  .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions1 .student img {
+  .introductionAbout .middlePart .teamMembersDescriptions1 .student img {
     width: 150px;
     margin-left: 0px;
     margin-right: 10px;
   }
 }
-.introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 {
+@media ( max-width: 500px ) {
+  .introductionAbout .middlePart .teamMembersDescriptions1 .student img {
+    margin-bottom: 15px;
+  }
+}
+.introductionAbout .middlePart .teamMembersDescriptions2 {
   display: flex;
   justify-content: space-evenly;
 }
-.introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 .student {
+@media ( max-width: 500px ) {
+  .introductionAbout .middlePart .teamMembersDescriptions2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+  }
+}
+.introductionAbout .middlePart .teamMembersDescriptions2 .student {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -184,25 +229,30 @@ header .loginBtn {
   margin-top: 30px;
 }
 @media (max-width: 1000px) {
-  .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 .student {
+  .introductionAbout .middlePart .teamMembersDescriptions2 .student {
     width: 200px;
     font-size: 12px;
     margin-left: 30px;
   }
 }
-.introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 .student img {
+.introductionAbout .middlePart .teamMembersDescriptions2 .student img {
   width: 200px;
   border-radius: 10px;
   margin-left: 70px;
   margin-top: 10px;
 }
 @media (max-width: 1000px) {
-  .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 .student img {
+  .introductionAbout .middlePart .teamMembersDescriptions2 .student img {
     width: 150px;
     margin-left: 0px;
   }
 }
-.introductionAbout .introductionComponentsAbout .introDescriptionAbout {
+@media ( max-width: 500px ) {
+  .introductionAbout .middlePart .teamMembersDescriptions2 .student img {
+    margin-bottom: 1px;
+  }
+}
+.introductionAbout .introDescriptionAbout {
   font-family: 'Baloo Paaji 2', cursive;
   font-size: 20px;
   padding-top: 100px;
@@ -211,23 +261,34 @@ header .loginBtn {
   text-align: center;
 }
 @media (max-width: 1000px) {
-  .introductionAbout .introductionComponentsAbout .introDescriptionAbout {
+  .introductionAbout .introDescriptionAbout {
     padding-left: 0px;
   }
 }
-.introductionAbout .introductionComponentsAbout .introDescriptionAbout h2 {
+@media ( max-width: 500px ) {
+  .introductionAbout .introDescriptionAbout {
+    font-size: 15px;
+  }
+}
+.introductionAbout .introDescriptionAbout h2 {
   font-size: 50px;
   text-align: center;
   margin-left: 0px;
 }
-.introductionAbout .introductionComponentsAbout .introDescriptionAbout p {
+.introductionAbout .introDescriptionAbout p {
   margin-left: 700px;
   text-align: center;
   width: 600px;
 }
 @media (max-width: 1000px) {
-  .introductionAbout .introductionComponentsAbout .introDescriptionAbout p {
+  .introductionAbout .introDescriptionAbout p {
     margin-left: 200px;
+  }
+}
+@media ( max-width: 500px ) {
+  .introductionAbout .introDescriptionAbout p {
+    width: 300px;
+    margin-right: 300px;
   }
 }
 .middle-section {
@@ -241,6 +302,11 @@ header .loginBtn {
   width: 100%;
   height: 1000px;
   border-radius: 10px;
+}
+@media ( max-width: 500px ) {
+  .middle-section img {
+    height: 2200px;
+  }
 }
 .middle-section .columns {
   position: absolute;
@@ -256,8 +322,19 @@ header .loginBtn {
 .middle-section .columns h3 {
   font-size: 50px;
 }
+@media ( max-width: 500px ) {
+  .middle-section .columns h3 {
+    font-size: 30px;
+  }
+}
 .middle-section .columns .columns123Div {
   display: flex;
+}
+@media ( max-width: 500px ) {
+  .middle-section .columns .columns123Div {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .middle-section .columns .columns123Div .column123 {
   color: black;
@@ -269,6 +346,12 @@ header .loginBtn {
 }
 .middle-section .columns .columns456Div {
   display: flex;
+}
+@media ( max-width: 500px ) {
+  .middle-section .columns .columns456Div {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .middle-section .columns .columns456Div .column456 {
   color: black;
@@ -334,6 +417,11 @@ header .loginBtn {
   width: 100%;
   margin: 0px;
 }
+@media ( max-width: 500px ) {
+  .bottom-section .bottom-content .favoritesListSection1 img {
+    height: 1000px;
+  }
+}
 .bottom-section .bottom-content .favoritesListSection1 .columnsBottom1 {
   position: absolute;
   top: 50%;
@@ -370,6 +458,11 @@ header .loginBtn {
   height: 500px;
   width: 100%;
   margin: 0px;
+}
+@media ( max-width: 500px ) {
+  .bottom-section .bottom-content .favoritesListSection2 img {
+    height: 1000px;
+  }
 }
 .bottom-section .bottom-content .favoritesListSection2 .columnsBottom2 {
   display: flex;
@@ -408,6 +501,11 @@ header .loginBtn {
   width: 100%;
   margin: 0px;
 }
+@media ( max-width: 500px ) {
+  .bottom-section .bottom-content .favoritesListSection3 img {
+    height: 1000px;
+  }
+}
 .bottom-section .bottom-content .favoritesListSection3 .columnsBottom3 {
   display: flex;
   flex-direction: row;
@@ -437,6 +535,12 @@ header .loginBtn {
 @media (max-width: 1000px) {
   .bottom-section .bottom-content .favoritesListBox {
     width: 50%;
+  }
+}
+@media ( max-width: 500px ) {
+  .bottom-section .bottom-content .favoritesListBox {
+    height: 1000px;
+    font-size: 30px;
   }
 }
 .bottom-section .bottom-content .favoritesListBox .list123 {
