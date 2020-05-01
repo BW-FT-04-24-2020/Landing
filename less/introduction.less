@@ -2,6 +2,9 @@ header{
     display: flex;
     justify-content: flex-start;
     background-color: floralwhite;
+    @media @desktop{
+      width: 100%;
+    }
     
     h1{
     font-family: @baloo;
@@ -9,6 +12,10 @@ header{
     padding-left: 250px;
     color: black;
     font-size: 30px;
+    @media @desktop{
+      width: 50%;
+      padding-left: 40px;
+    }
     }
     nav{
       font-family: @baloo;
@@ -24,6 +31,9 @@ header{
     .loginBtn{
         .custom-btn(20px, @baloo);
         margin-top: 15px;
+        @media @desktop{
+          width: 400px;
+        }
     }
     
   }
@@ -33,6 +43,7 @@ header{
     .introductionComponents{
       display:flex;
       justify-content: center;
+      
   
       img{
         width: 1000px;
@@ -43,6 +54,12 @@ header{
         margin-bottom: 20px;
         border-radius: 30px;
         transform: translate(-15%, -8%);
+        @media @desktop{
+          width: 40%;
+          height: 50%;
+          margin-left: 40px;
+          margin-right: 50px;
+        }
       }
       .introDescription{
         font-family: @baloo;
@@ -51,14 +68,28 @@ header{
         padding-left: 250px;
         text-align:center;
         transform: translate(-10%, -15%);
+        @media @desktop{
+          width: 40%;
+          height: 50%;
+          margin-left: 0px;
+          font-size: 20px;
+          margin-right: 10px;
+        }
         h2{
           font-size: 50px;
           transform: translate(-3%, -10%);
+          @media @desktop{
+            font-size: 30px;
+          }
         }
         .btn{
             .custom-btn(20px , @baloo);
             margin-left: 140px;
             transform: translate(-15%, -20%);
+            @media @desktop{
+              width: 125px;
+              margin-left: 90px;
+            }
             
         }
       }
@@ -84,12 +115,22 @@ header{
               text-align:center;
               width: 500px;
               font-size: 20px;
+              @media @desktop{
+                width: 200px;
+                font-size: 12px;
+                margin-right: 20px;
+              }
               
               img{
                 width: 200px;
                 border-radius: 10px;
-                margin-left: 15px;
+                margin-left: 100px;
                 margin-top:20px;
+                @media @desktop{
+                  width: 150px;
+                  margin-left: 0px;
+                  margin-right: 10px;
+                }
               }
             }
 
@@ -104,12 +145,22 @@ header{
               width: 400px;
               font-size: 20px;
               margin-top: 30px;
+              @media @desktop{
+                width: 200px;
+                font-size: 12px;
+                margin-left: 30px;
+              }
               
               img{
                 width: 200px;
                 border-radius: 10px;
-                margin-left: 20px;
+                margin-left: 70px;
                 margin-top:10px;
+                @media @desktop{
+                  width: 150px;
+                  margin-left: 0px;
+
+                }
               }
             }
         }
@@ -122,17 +173,23 @@ header{
         padding-left:100px;
         padding-bottom: 300px;
         text-align:center;
+        @media @desktop{
+          padding-left:0px;
+        }
         h2{
           font-size: 50px;
           text-align: center;
           margin-left: 0px;
         }
         p{
-            margin-left: 600px;
+            margin-left: 700px;
             text-align:center;
             width: 600px;
             //padding-left: 300px;
             //padding-right: 300px;
+            @media @desktop{
+              margin-left: 200px;
+            }
         }
         
       }

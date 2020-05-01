@@ -10,12 +10,23 @@ header {
   justify-content: flex-start;
   background-color: floralwhite;
 }
+@media (max-width: 1000px) {
+  header {
+    width: 100%;
+  }
+}
 header h1 {
   font-family: 'Baloo Paaji 2', cursive;
   padding-top: 10px;
   padding-left: 250px;
   color: black;
   font-size: 30px;
+}
+@media (max-width: 1000px) {
+  header h1 {
+    width: 50%;
+    padding-left: 40px;
+  }
 }
 header nav {
   font-family: 'Baloo Paaji 2', cursive;
@@ -42,6 +53,11 @@ header .loginBtn {
   padding-top: 10px;
   margin-top: 15px;
 }
+@media (max-width: 1000px) {
+  header .loginBtn {
+    width: 400px;
+  }
+}
 .introduction {
   background-color: DarkSeaGreen;
 }
@@ -59,6 +75,14 @@ header .loginBtn {
   border-radius: 30px;
   transform: translate(-15%, -8%);
 }
+@media (max-width: 1000px) {
+  .introduction .introductionComponents img {
+    width: 40%;
+    height: 50%;
+    margin-left: 40px;
+    margin-right: 50px;
+  }
+}
 .introduction .introductionComponents .introDescription {
   font-family: 'Baloo Paaji 2', cursive;
   font-size: 20px;
@@ -67,9 +91,23 @@ header .loginBtn {
   text-align: center;
   transform: translate(-10%, -15%);
 }
+@media (max-width: 1000px) {
+  .introduction .introductionComponents .introDescription {
+    width: 40%;
+    height: 50%;
+    margin-left: 0px;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
 .introduction .introductionComponents .introDescription h2 {
   font-size: 50px;
   transform: translate(-3%, -10%);
+}
+@media (max-width: 1000px) {
+  .introduction .introductionComponents .introDescription h2 {
+    font-size: 30px;
+  }
 }
 .introduction .introductionComponents .introDescription .btn {
   font-size: 20px;
@@ -86,6 +124,12 @@ header .loginBtn {
   padding-top: 10px;
   margin-left: 140px;
   transform: translate(-15%, -20%);
+}
+@media (max-width: 1000px) {
+  .introduction .introductionComponents .introDescription .btn {
+    width: 125px;
+    margin-left: 90px;
+  }
 }
 .introductionAbout {
   background-color: DarkSeaGreen;
@@ -107,11 +151,25 @@ header .loginBtn {
   width: 500px;
   font-size: 20px;
 }
+@media (max-width: 1000px) {
+  .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions1 .student {
+    width: 200px;
+    font-size: 12px;
+    margin-right: 20px;
+  }
+}
 .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions1 .student img {
   width: 200px;
   border-radius: 10px;
-  margin-left: 15px;
+  margin-left: 100px;
   margin-top: 20px;
+}
+@media (max-width: 1000px) {
+  .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions1 .student img {
+    width: 150px;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
 }
 .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 {
   display: flex;
@@ -125,11 +183,24 @@ header .loginBtn {
   font-size: 20px;
   margin-top: 30px;
 }
+@media (max-width: 1000px) {
+  .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 .student {
+    width: 200px;
+    font-size: 12px;
+    margin-left: 30px;
+  }
+}
 .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 .student img {
   width: 200px;
   border-radius: 10px;
-  margin-left: 20px;
+  margin-left: 70px;
   margin-top: 10px;
+}
+@media (max-width: 1000px) {
+  .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 .student img {
+    width: 150px;
+    margin-left: 0px;
+  }
 }
 .introductionAbout .introductionComponentsAbout .introDescriptionAbout {
   font-family: 'Baloo Paaji 2', cursive;
@@ -139,15 +210,25 @@ header .loginBtn {
   padding-bottom: 300px;
   text-align: center;
 }
+@media (max-width: 1000px) {
+  .introductionAbout .introductionComponentsAbout .introDescriptionAbout {
+    padding-left: 0px;
+  }
+}
 .introductionAbout .introductionComponentsAbout .introDescriptionAbout h2 {
   font-size: 50px;
   text-align: center;
   margin-left: 0px;
 }
 .introductionAbout .introductionComponentsAbout .introDescriptionAbout p {
-  margin-left: 600px;
+  margin-left: 700px;
   text-align: center;
   width: 600px;
+}
+@media (max-width: 1000px) {
+  .introductionAbout .introductionComponentsAbout .introDescriptionAbout p {
+    margin-left: 200px;
+  }
 }
 .middle-section {
   position: relative;
@@ -270,6 +351,11 @@ header .loginBtn {
   margin-top: 200px;
   width: 1000px;
 }
+@media (max-width: 1000px) {
+  .bottom-section .bottom-content .favoritesListSection1 .columnsBottom1 h3 {
+    width: 50%;
+  }
+}
 .bottom-section .bottom-content .favoritesListSection1 .columnsBottom1 .favoritesListBox .list123 {
   background-color: rgba(240, 255, 240, 0.4);
 }
@@ -301,6 +387,11 @@ header .loginBtn {
   text-align: center;
   margin-top: 200px;
   width: 1000px;
+}
+@media (max-width: 1000px) {
+  .bottom-section .bottom-content .favoritesListSection2 .columnsBottom2 h3 {
+    width: 50%;
+  }
 }
 .bottom-section .bottom-content .favoritesListSection2 .columnsBottom2 .favoritesListBox .list123 {
   background-color: rgba(250, 235, 215, 0.4);
@@ -334,9 +425,19 @@ header .loginBtn {
   margin-top: 200px;
   width: 1000px;
 }
+@media (max-width: 1000px) {
+  .bottom-section .bottom-content .favoritesListSection3 .columnsBottom3 h3 {
+    width: 50%;
+  }
+}
 .bottom-section .bottom-content .favoritesListBox {
   font-size: 40px;
   width: 100%;
+}
+@media (max-width: 1000px) {
+  .bottom-section .bottom-content .favoritesListBox {
+    width: 50%;
+  }
 }
 .bottom-section .bottom-content .favoritesListBox .list123 {
   margin: 30px;
