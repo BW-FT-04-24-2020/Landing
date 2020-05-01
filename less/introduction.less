@@ -1,3 +1,9 @@
+html,body
+{
+   min-width: 700px;
+   width: 100%;
+}
+
 header{
     display: flex;
     justify-content: flex-start;
@@ -87,6 +93,7 @@ header{
         
       }
       
+      
   
       img{
         width: 1000px;
@@ -98,11 +105,15 @@ header{
         border-radius: 30px;
         transform: translate(-15%, -8%);
         @media @desktop{
-          width: 40%;
-          height: 50%;
+          width: 50%;
+          height: 0%;
           margin-left: 80px;
           margin-right: 50px;
           
+        }
+        @media @higher{
+          width: 600px;
+          height:500px;
         }
 
         @media @mobile{
@@ -126,10 +137,10 @@ header{
           margin-left: 10px;
         }
 
-        @media @higher{
-          width: 500px;
-          height:300px;
-      }
+        //@media @higher{
+          //width: 500px;
+          //height:1000px;
+        //}
       }
       .introDescription{
         font-family: @baloo;
