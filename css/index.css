@@ -10,7 +10,7 @@ header {
   justify-content: flex-start;
   background-color: floralwhite;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   header {
     width: 100%;
     justify-content: center;
@@ -23,7 +23,7 @@ header h1 {
   color: black;
   font-size: 30px;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   header h1 {
     width: 40%;
     padding-left: 40px;
@@ -35,7 +35,7 @@ header nav {
   padding-top: 30px;
   padding-left: 500px;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   header nav {
     padding-left: 20px;
     font-size: 15px;
@@ -56,7 +56,7 @@ header nav a {
   padding: 15px;
   padding-right: 100px;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   header nav a {
     padding-right: 15px;
     padding: 10px;
@@ -86,7 +86,7 @@ header .loginBtn {
 header .loginBtn a {
   color: white;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   header .loginBtn {
     width: 150px;
   }
@@ -121,7 +121,7 @@ header .loginBtn a {
   border-radius: 30px;
   transform: translate(-15%, -8%);
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .introduction .introductionComponents img {
     width: 40%;
     height: 50%;
@@ -156,7 +156,7 @@ header .loginBtn a {
   text-align: center;
   transform: translate(-10%, -15%);
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .introduction .introductionComponents .introDescription {
     width: 55%;
     height: 65%;
@@ -182,7 +182,7 @@ header .loginBtn a {
     font-size: 15px;
   }
 }
-@media (max-width: 1500px) {
+@media (min-width: 1500px) {
   .introduction .introductionComponents .introDescription {
     padding-left: 150px;
   }
@@ -191,7 +191,7 @@ header .loginBtn a {
   font-size: 50px;
   transform: translate(-3%, -10%);
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .introduction .introductionComponents .introDescription h2 {
     font-size: 30px;
   }
@@ -201,7 +201,7 @@ header .loginBtn a {
     font-size: 50px;
   }
 }
-@media (max-width: 1500px) {
+@media (min-width: 1500px) {
   .introduction .introductionComponents .introDescription h2 {
     font-size: 30px;
   }
@@ -222,7 +222,7 @@ header .loginBtn a {
   margin-left: 140px;
   transform: translate(-15%, -20%);
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .introduction .introductionComponents .introDescription .btn {
     width: 125px;
     margin-left: 140px;
@@ -283,7 +283,7 @@ header .loginBtn a {
   font-size: 20px;
   font-weight: bold;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .introductionAbout .middlePart .teamMembersDescriptions1 .student {
     width: 200px;
     font-size: 12px;
@@ -298,6 +298,11 @@ header .loginBtn a {
 @media (max-width: 600px) {
   .introductionAbout .middlePart .teamMembersDescriptions1 .student {
     width: 100px;
+  }
+}
+@media (min-width: 1500px) {
+  .introductionAbout .middlePart .teamMembersDescriptions1 .student {
+    width: 350px;
   }
 }
 .introductionAbout .middlePart .teamMembersDescriptions1 .student .studentDescription {
@@ -316,7 +321,7 @@ header .loginBtn a {
   margin-left: 100px;
   margin-top: 20px;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .introductionAbout .middlePart .teamMembersDescriptions1 .student img {
     width: 150px;
     margin-left: 0px;
@@ -354,7 +359,7 @@ header .loginBtn a {
   font-weight: bold;
   margin-top: 30px;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .introductionAbout .middlePart .teamMembersDescriptions2 .student {
     width: 200px;
     font-size: 12px;
@@ -369,6 +374,11 @@ header .loginBtn a {
 @media (max-width: 600px) {
   .introductionAbout .middlePart .teamMembersDescriptions2 .student {
     width: 100px;
+  }
+}
+@media (min-width: 1500px) {
+  .introductionAbout .middlePart .teamMembersDescriptions2 .student {
+    width: 250px;
   }
 }
 .introductionAbout .middlePart .teamMembersDescriptions2 .student .studentDescription {
@@ -387,7 +397,7 @@ header .loginBtn a {
   margin-left: 70px;
   margin-top: 10px;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .introductionAbout .middlePart .teamMembersDescriptions2 .student img {
     width: 150px;
     margin-left: 0px;
@@ -412,7 +422,7 @@ header .loginBtn a {
   padding-bottom: 300px;
   text-align: center;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .introductionAbout .introDescriptionAbout {
     padding-left: 0px;
   }
@@ -437,7 +447,7 @@ header .loginBtn a {
   text-align: center;
   width: 600px;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .introductionAbout .introDescriptionAbout p {
     margin-left: 200px;
   }
@@ -459,7 +469,7 @@ header .loginBtn a {
     margin-left: 100px;
   }
 }
-@media (max-width: 1500px) {
+@media (min-width: 1500px) {
   .introductionAbout .introDescriptionAbout p {
     margin-left: 200px;
   }
@@ -653,7 +663,7 @@ header .loginBtn a {
   margin-top: 200px;
   width: 1000px;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .bottom-section .bottom-content .favoritesListSection1 .columnsBottom1 h3 {
     width: 50%;
     margin-top: 100px;
@@ -696,7 +706,7 @@ header .loginBtn a {
   margin-top: 200px;
   width: 1000px;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .bottom-section .bottom-content .favoritesListSection2 .columnsBottom2 h3 {
     width: 50%;
     margin-top: 100px;
@@ -739,7 +749,7 @@ header .loginBtn a {
   margin-top: 200px;
   width: 1000px;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .bottom-section .bottom-content .favoritesListSection3 .columnsBottom3 h3 {
     width: 50%;
     margin-top: 100px;
@@ -749,7 +759,7 @@ header .loginBtn a {
   font-size: 40px;
   width: 100%;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .bottom-section .bottom-content .favoritesListBox {
     width: 50%;
     font-size: 30px;
