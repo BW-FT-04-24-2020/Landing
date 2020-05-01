@@ -132,7 +132,7 @@ header .loginBtn a {
 @media ( max-width: 500px ) {
   .introduction .introductionComponents img {
     margin-top: 400px;
-    margin-right: 60px;
+    margin-right: 50px;
     margin-left: 10px;
     width: 30%;
   }
@@ -300,11 +300,6 @@ header .loginBtn a {
     width: 100px;
   }
 }
-@media (max-width: 1500px) {
-  .introductionAbout .middlePart .teamMembersDescriptions1 .student {
-    width: 350px;
-  }
-}
 .introductionAbout .middlePart .teamMembersDescriptions1 .student .studentDescription {
   text-align: center;
   margin-right: 70px;
@@ -373,11 +368,6 @@ header .loginBtn a {
 @media (max-width: 600px) {
   .introductionAbout .middlePart .teamMembersDescriptions2 .student {
     width: 100px;
-  }
-}
-@media (max-width: 1500px) {
-  .introductionAbout .middlePart .teamMembersDescriptions2 .student {
-    width: 250px;
   }
 }
 .introductionAbout .middlePart .teamMembersDescriptions2 .student .studentDescription {
