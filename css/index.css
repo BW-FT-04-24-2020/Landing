@@ -54,7 +54,7 @@ header nav {
 }
 @media (max-width: 400px) {
   header nav {
-    padding-left: 50px;
+    padding-left: 20px;
   }
 }
 header nav a {
@@ -226,6 +226,7 @@ header .loginBtn a {
 @media (max-width: 400px) {
   .introduction .introDescription {
     font-size: 15px;
+    margin-top: 50px;
   }
 }
 .introduction .introDescription h2 {
@@ -867,6 +868,11 @@ header .loginBtn a {
 @media (max-width: 1500px) {
   .bottom-section .bottom-content .favoritesListBox .list123 {
     width: 400px;
+  }
+}
+@media (max-width: 1000px) {
+  .bottom-section .bottom-content .favoritesListBox .list123 {
+    width: 300px;
   }
 }
 @media ( max-width: 500px ) {
