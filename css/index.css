@@ -35,6 +35,11 @@ header nav {
   padding-top: 30px;
   padding-left: 500px;
 }
+@media (max-width: 1200px) {
+  header nav {
+    padding-left: 200px;
+  }
+}
 @media (max-width: 1000px) {
   header nav {
     padding-left: 20px;
@@ -117,6 +122,11 @@ header .loginBtn a {
     padding-left: 10px;
   }
 }
+@media (max-width: 1787px) {
+  .introduction .introductionComponents {
+    margin-left: 200px;
+  }
+}
 .introduction .introductionComponents img {
   width: 1000px;
   height: 700px;
@@ -127,10 +137,15 @@ header .loginBtn a {
   border-radius: 30px;
   transform: translate(-15%, -8%);
 }
+@media (max-width: 1787px) {
+  .introduction .introductionComponents img {
+    margin-left: 109px;
+  }
+}
 @media (max-width: 1500px) {
   .introduction .introductionComponents img {
-    width: 600px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
   }
 }
 @media (max-width: 1000px) {
@@ -297,6 +312,11 @@ header .loginBtn a {
   font-size: 20px;
   font-weight: bold;
 }
+@media (max-width: 1787px) {
+  .introductionAbout .middlePart .teamMembersDescriptions1 .student {
+    width: 250px;
+  }
+}
 @media (max-width: 1500px) {
   .introductionAbout .middlePart .teamMembersDescriptions1 .student {
     width: 350px;
@@ -344,6 +364,11 @@ header .loginBtn a {
   border-radius: 10px;
   margin-left: 100px;
   margin-top: 20px;
+}
+@media (max-width: 1787px) {
+  .introductionAbout .middlePart .teamMembersDescriptions1 .student img {
+    margin-left: 20px;
+  }
 }
 @media (max-width: 1000px) {
   .introductionAbout .middlePart .teamMembersDescriptions1 .student img {
@@ -473,9 +498,15 @@ header .loginBtn a {
   text-align: center;
   width: 600px;
 }
+@media (max-width: 1787px) {
+  .introductionAbout .introDescriptionAbout p {
+    margin-left: 500px;
+  }
+}
 @media (max-width: 1500px) {
   .introductionAbout .introDescriptionAbout p {
-    margin-left: 50px;
+    margin-left: 180px;
+    margin-right: 30px;
   }
 }
 @media (max-width: 1000px) {
@@ -804,6 +835,11 @@ header .loginBtn a {
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
+}
+@media (max-width: 1500px) {
+  .bottom-section .bottom-content .favoritesListBox .list123 {
+    width: 400px;
+  }
 }
 footer {
   text-align: center;
