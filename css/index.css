@@ -98,6 +98,12 @@ header .loginBtn a {
     height: 30px;
   }
 }
+@media (max-width: 910px) {
+  header .loginBtn {
+    width: 80px;
+    font-size: 15px;
+  }
+}
 .introduction {
   background-color: DarkSeaGreen;
 }
@@ -157,6 +163,12 @@ header .loginBtn a {
     padding-left: 100px;
   }
 }
+@media (max-width: 910px) {
+  .introduction .introductionComponents .introDescription {
+    font-size: 15px;
+    width: 300px;
+  }
+}
 @media (max-width: 600px) {
   .introduction .introductionComponents .introDescription {
     margin-left: 40px;
@@ -201,6 +213,11 @@ header .loginBtn a {
   .introduction .introductionComponents .introDescription .btn {
     width: 125px;
     margin-left: 140px;
+  }
+}
+@media (max-width: 910px) {
+  .introduction .introductionComponents .introDescription .btn {
+    margin-left: 110px;
   }
 }
 @media ( max-width: 500px ) {
@@ -488,6 +505,11 @@ header .loginBtn a {
     width: 150px;
   }
 }
+@media (max-width: 910px) {
+  .middle-section .columns .columns123Div .column123 {
+    width: 150px;
+  }
+}
 .middle-section .columns .columns456Div {
   display: flex;
 }
@@ -512,6 +534,11 @@ header .loginBtn a {
   padding: 40px;
 }
 @media (max-width: 800px) {
+  .middle-section .columns .columns456Div .column456 {
+    width: 150px;
+  }
+}
+@media (max-width: 910px) {
   .middle-section .columns .columns456Div .column456 {
     width: 150px;
   }
