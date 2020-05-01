@@ -47,6 +47,11 @@ header nav {
     padding-left: 100px;
   }
 }
+@media (max-width: 400px) {
+  header nav {
+    padding-left: 50px;
+  }
+}
 header nav a {
   padding: 15px;
   padding-right: 100px;
@@ -77,6 +82,9 @@ header .loginBtn {
   text-align: center;
   padding-top: 10px;
   margin-top: 15px;
+}
+header .loginBtn a {
+  color: white;
 }
 @media (max-width: 1000px) {
   header .loginBtn {
@@ -120,6 +128,12 @@ header .loginBtn {
     margin-top: 400px;
   }
 }
+@media (max-width: 400px) {
+  .introduction .introductionComponents img {
+    margin-top: 300px;
+    margin-left: 10px;
+  }
+}
 .introduction .introductionComponents .introDescription {
   font-family: 'Baloo Paaji 2', cursive;
   font-size: 20px;
@@ -138,6 +152,11 @@ header .loginBtn {
     padding-left: 100px;
   }
 }
+@media (max-width: 400px) {
+  .introduction .introductionComponents .introDescription {
+    font-size: 15px;
+  }
+}
 .introduction .introductionComponents .introDescription h2 {
   font-size: 50px;
   transform: translate(-3%, -10%);
@@ -145,6 +164,11 @@ header .loginBtn {
 @media (max-width: 1000px) {
   .introduction .introductionComponents .introDescription h2 {
     font-size: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .introduction .introductionComponents .introDescription h2 {
+    font-size: 20px;
   }
 }
 .introduction .introductionComponents .introDescription .btn {
@@ -172,6 +196,13 @@ header .loginBtn {
 @media ( max-width: 500px ) {
   .introduction .introductionComponents .introDescription .btn {
     margin-left: 80px;
+  }
+}
+@media (max-width: 400px) {
+  .introduction .introductionComponents .introDescription .btn {
+    width: 100px;
+    font-size: 15px;
+    margin-left: 60px;
   }
 }
 .introductionAbout {
@@ -208,6 +239,10 @@ header .loginBtn {
     font-size: 12px;
     margin-right: 20px;
   }
+}
+.introductionAbout .middlePart .teamMembersDescriptions1 .student .studentDescription {
+  text-align: center;
+  margin-right: 70px;
 }
 .introductionAbout .middlePart .teamMembersDescriptions1 .student img {
   width: 200px;
@@ -253,6 +288,10 @@ header .loginBtn {
     font-size: 12px;
     margin-left: 30px;
   }
+}
+.introductionAbout .middlePart .teamMembersDescriptions2 .student .studentDescription {
+  text-align: center;
+  margin-right: 50px;
 }
 .introductionAbout .middlePart .teamMembersDescriptions2 .student img {
   width: 200px;
@@ -562,7 +601,7 @@ header .loginBtn {
 @media ( max-width: 500px ) {
   .bottom-section .bottom-content .favoritesListBox {
     height: 1000px;
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 .bottom-section .bottom-content .favoritesListBox .list123 {

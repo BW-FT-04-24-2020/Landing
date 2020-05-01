@@ -34,6 +34,10 @@ header{
         padding-left: 100px;
 
       }
+
+      @media @below{
+        padding-left: 50px;
+      }
       a{
         padding: 15px;
         padding-right: 100px;
@@ -53,6 +57,8 @@ header{
     .loginBtn{
         .custom-btn(20px, @baloo);
         margin-top: 15px;
+        a{
+          color:white;}
         @media @desktop{
           width: 150px;
         }
@@ -92,6 +98,11 @@ header{
         @media @mobile{
           margin-top: 400px;
         }
+
+        @media @below{
+          margin-top:300px;
+          margin-left: 10px;
+        }
       }
       .introDescription{
         font-family: @baloo;
@@ -108,11 +119,17 @@ header{
           margin-right: 10px;
           padding-left: 100px;
         }
+        @media @below{
+          font-size: 15px;
+        }
         h2{
           font-size: 50px;
           transform: translate(-3%, -10%);
           @media @desktop{
             font-size: 30px;
+          }
+          @media @below{
+            font-size: 20px;
           }
         }
         .btn{
@@ -125,6 +142,12 @@ header{
             }
             @media @mobile{
               margin-left: 80px;
+            }
+
+            @media @below{
+              width: 100px;
+              font-size: 15px;
+              margin-left: 60px;
             }
             
         }
@@ -170,7 +193,10 @@ header{
               //@media @mobile{
                 //width: 40px;
               //}
-              
+              .studentDescription{
+                text-align:center;
+                margin-right: 70px;
+              }
               img{
                 width: 200px;
                 border-radius: 10px;
@@ -217,7 +243,10 @@ header{
                 //width: 40px;
                 
               //}
-              
+              .studentDescription{
+                text-align:center;
+                margin-right: 50px;
+              }
               img{
                 width: 200px;
                 border-radius: 10px;
