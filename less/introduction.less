@@ -90,12 +90,17 @@ header{
       @media @above{
         margin-left: 200px;
       }
+      @media @middlelow{
+        flex-direction: column;
+        margin-left:100px;
+      }
       @media @mobile{
         flex-direction: column;
         padding-left: 10px;
         margin-left: 100px;
         
       }
+      
       
       
       
@@ -131,9 +136,13 @@ header{
         }
 
         @media @middlelow{
-          margin-top: 400px;
+          margin-top: 80px;
+          margin-bottom: 100px;
+          margin-left:150px;
+          width:60%;
+          height: 50%;
        
-
+        }
         @media @mobile{
           margin-top: 30px;
           margin-right: 50px;
@@ -141,23 +150,23 @@ header{
           width: 60%;
           height: 50%;
             
-          }
+          
           
         }
 
-         
-
-        }
         @media @below{
           margin-top:300px;
           margin-left: 10px;
-        }
+        }   
+
+      }
+        
 
         //@media @higher{
           //width: 500px;
           //height:1000px;
         //}
-      }
+      
       .introDescription{
         font-family: @baloo;
         font-size: 20px;
@@ -243,7 +252,7 @@ header{
       
     }
   
-
+  }
   .introductionAbout{
     background-color: DarkSeaGreen;
     .introductionComponentsAbout{
@@ -298,11 +307,14 @@ header{
               @media @highlow{
                 width: 150px;
               }
-
+              @media @middle{
+                width:70px;
+              }
               @media @middlelow{
-                width:100px;
+                width:40px;
                     
                 }
+              
 
              
 
@@ -376,10 +388,14 @@ header{
               @media @highlow{
                 width: 150px;
               }
+              @media @middle{
+                width:70px;
+              }
               @media @middlelow{
-                width:100px;
+                width:30px;
                     
               }
+              
 
               
 
@@ -408,12 +424,14 @@ header{
                 }
                 @media @middlelow{
                   width:100px;
+
                       
                   }
                 @media @mobile{
                   margin-bottom: 1px;
                   margin-left:70px;
                 }
+
                 
               }
             }
@@ -469,8 +487,8 @@ header{
             }
             @media @mobile{
               width: 300px;
-              margin-right: 200px;
-              margin-left: 0px;
+              margin-right: 80px;
+              margin-left: 40px;
             }
             
             
