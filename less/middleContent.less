@@ -14,6 +14,9 @@
       @media @mobile{
           height: 2200px;
       }
+      @media @middlelow{
+        height: 2000px;
+    }
       }
      
     .columns{
@@ -29,12 +32,21 @@
 
         h3{
             font-size: 50px;
+            @media @middlelow{
+                font-size: 40px;
+            }
             @media @mobile{
                 font-size: 30px;
             }
+            
         }
         .columns123Div{
             display:flex;
+            @media @middlelow{
+            display:flex;
+            flex-direction: column;
+                
+            }
             @media @mobile{
                 display:flex;
                 flex-direction: column;
@@ -47,8 +59,9 @@
                 margin:10px;
                 border-radius: 10px;
                 padding: 40px;
-                @media @mobile{
-                    
+                @media @middle{
+                    width:150px;
+                        
                 }
                 
             }
@@ -56,6 +69,11 @@
 
         .columns456Div{
             display:flex;
+            @media @middlelow{
+            display:flex;
+            flex-direction: column;
+                    
+            }
             @media @mobile{
                 display:flex;
                 flex-direction: column;
@@ -68,9 +86,10 @@
                 margin:10px;
                 border-radius: 10px;
                 padding: 40px;
-                @media @mobile{
-                    
-                }
+                @media @middle{
+                    width:150px;
+                        
+                    }
             }
         }
         

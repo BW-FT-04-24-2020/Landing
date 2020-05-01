@@ -128,6 +128,11 @@ header .loginBtn a {
     margin-top: 400px;
   }
 }
+@media (max-width: 600px) {
+  .introduction .introductionComponents img {
+    margin-top: 400px;
+  }
+}
 @media (max-width: 400px) {
   .introduction .introductionComponents img {
     margin-top: 300px;
@@ -152,6 +157,11 @@ header .loginBtn a {
     padding-left: 100px;
   }
 }
+@media (max-width: 600px) {
+  .introduction .introductionComponents .introDescription {
+    margin-left: 40px;
+  }
+}
 @media (max-width: 400px) {
   .introduction .introductionComponents .introDescription {
     font-size: 15px;
@@ -168,7 +178,7 @@ header .loginBtn a {
 }
 @media (max-width: 400px) {
   .introduction .introductionComponents .introDescription h2 {
-    font-size: 20px;
+    font-size: 50px;
   }
 }
 .introduction .introductionComponents .introDescription .btn {
@@ -196,6 +206,16 @@ header .loginBtn a {
 @media ( max-width: 500px ) {
   .introduction .introductionComponents .introDescription .btn {
     margin-left: 80px;
+  }
+}
+@media (max-width: 600px) {
+  .introduction .introductionComponents .introDescription .btn {
+    margin-left: 70px;
+  }
+}
+@media (max-width: 800px) {
+  .introduction .introductionComponents .introDescription .btn {
+    margin-left: 100px;
   }
 }
 @media (max-width: 400px) {
@@ -240,6 +260,16 @@ header .loginBtn a {
     margin-right: 20px;
   }
 }
+@media (max-width: 910px) {
+  .introductionAbout .middlePart .teamMembersDescriptions1 .student {
+    width: 150px;
+  }
+}
+@media (max-width: 600px) {
+  .introductionAbout .middlePart .teamMembersDescriptions1 .student {
+    width: 100px;
+  }
+}
 .introductionAbout .middlePart .teamMembersDescriptions1 .student .studentDescription {
   text-align: center;
   margin-right: 70px;
@@ -255,6 +285,11 @@ header .loginBtn a {
     width: 150px;
     margin-left: 0px;
     margin-right: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .introductionAbout .middlePart .teamMembersDescriptions1 .student img {
+    width: 100px;
   }
 }
 @media ( max-width: 500px ) {
@@ -289,6 +324,16 @@ header .loginBtn a {
     margin-left: 30px;
   }
 }
+@media (max-width: 910px) {
+  .introductionAbout .middlePart .teamMembersDescriptions2 .student {
+    width: 150px;
+  }
+}
+@media (max-width: 600px) {
+  .introductionAbout .middlePart .teamMembersDescriptions2 .student {
+    width: 100px;
+  }
+}
 .introductionAbout .middlePart .teamMembersDescriptions2 .student .studentDescription {
   text-align: center;
   margin-right: 50px;
@@ -303,6 +348,11 @@ header .loginBtn a {
   .introductionAbout .middlePart .teamMembersDescriptions2 .student img {
     width: 150px;
     margin-left: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .introductionAbout .middlePart .teamMembersDescriptions2 .student img {
+    width: 100px;
   }
 }
 @media ( max-width: 500px ) {
@@ -321,6 +371,11 @@ header .loginBtn a {
 @media (max-width: 1000px) {
   .introductionAbout .introDescriptionAbout {
     padding-left: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .introductionAbout .introDescriptionAbout {
+    font-size: 15px;
   }
 }
 @media ( max-width: 500px ) {
@@ -349,6 +404,11 @@ header .loginBtn a {
     margin-right: 300px;
   }
 }
+@media (max-width: 600px) {
+  .introductionAbout .introDescriptionAbout p {
+    margin-left: 00px;
+  }
+}
 .middle-section {
   position: relative;
   text-align: center;
@@ -366,6 +426,11 @@ header .loginBtn a {
     height: 2200px;
   }
 }
+@media (max-width: 600px) {
+  .middle-section img {
+    height: 2000px;
+  }
+}
 .middle-section .columns {
   position: absolute;
   top: 40%;
@@ -380,6 +445,11 @@ header .loginBtn a {
 .middle-section .columns h3 {
   font-size: 50px;
 }
+@media (max-width: 600px) {
+  .middle-section .columns h3 {
+    font-size: 40px;
+  }
+}
 @media ( max-width: 500px ) {
   .middle-section .columns h3 {
     font-size: 30px;
@@ -387,6 +457,12 @@ header .loginBtn a {
 }
 .middle-section .columns .columns123Div {
   display: flex;
+}
+@media (max-width: 600px) {
+  .middle-section .columns .columns123Div {
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media ( max-width: 500px ) {
   .middle-section .columns .columns123Div {
@@ -402,8 +478,19 @@ header .loginBtn a {
   border-radius: 10px;
   padding: 40px;
 }
+@media (max-width: 800px) {
+  .middle-section .columns .columns123Div .column123 {
+    width: 150px;
+  }
+}
 .middle-section .columns .columns456Div {
   display: flex;
+}
+@media (max-width: 600px) {
+  .middle-section .columns .columns456Div {
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media ( max-width: 500px ) {
   .middle-section .columns .columns456Div {
@@ -418,6 +505,11 @@ header .loginBtn a {
   margin: 10px;
   border-radius: 10px;
   padding: 40px;
+}
+@media (max-width: 800px) {
+  .middle-section .columns .columns456Div .column456 {
+    width: 150px;
+  }
 }
 .middle-section .columns .btnCategories {
   font-size: 20px;
