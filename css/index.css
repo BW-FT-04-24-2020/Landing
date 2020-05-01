@@ -404,6 +404,11 @@ header .loginBtn a {
     margin-left: 20px;
   }
 }
+@media (max-width: 1200px) {
+  .introductionAbout .middlePart .teamMembersDescriptions1 .student img {
+    width: 130px;
+  }
+}
 @media (max-width: 1000px) {
   .introductionAbout .middlePart .teamMembersDescriptions1 .student img {
     width: 100px;
@@ -486,6 +491,11 @@ header .loginBtn a {
   border-radius: 10px;
   margin-left: 70px;
   margin-top: 10px;
+}
+@media (max-width: 1200px) {
+  .introductionAbout .middlePart .teamMembersDescriptions2 .student img {
+    width: 130px;
+  }
 }
 @media (max-width: 1000px) {
   .introductionAbout .middlePart .teamMembersDescriptions2 .student img {
