@@ -408,7 +408,7 @@ header .loginBtn a {
 }
 @media (max-width: 600px) {
   .introductionAbout .middlePart .teamMembersDescriptions1 .student img {
-    width: 100px;
+    width: 50px;
   }
 }
 @media ( max-width: 500px ) {
@@ -490,7 +490,7 @@ header .loginBtn a {
 }
 @media (max-width: 600px) {
   .introductionAbout .middlePart .teamMembersDescriptions2 .student img {
-    width: 100px;
+    width: 50px;
   }
 }
 @media ( max-width: 500px ) {
@@ -548,14 +548,14 @@ header .loginBtn a {
     margin-left: 200px;
   }
 }
-@media (max-width: 600px) {
-  .introductionAbout .introDescriptionAbout p {
-    margin-left: 00px;
-  }
-}
 @media (max-width: 800px) {
   .introductionAbout .introDescriptionAbout p {
     margin-left: 100px;
+  }
+}
+@media (max-width: 600px) {
+  .introductionAbout .introDescriptionAbout p {
+    margin-left: 00px;
   }
 }
 @media ( max-width: 500px ) {
