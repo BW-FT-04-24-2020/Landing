@@ -132,6 +132,9 @@ header .loginBtn a {
 @media ( max-width: 500px ) {
   .introduction .introductionComponents img {
     margin-top: 400px;
+    margin-right: 60px;
+    margin-left: 10px;
+    width: 30%;
   }
 }
 @media (max-width: 600px) {
@@ -143,12 +146,6 @@ header .loginBtn a {
   .introduction .introductionComponents img {
     margin-top: 300px;
     margin-left: 10px;
-  }
-}
-@media (max-width: 1500px) {
-  .introduction .introductionComponents img {
-    width: 500px;
-    height: 300px;
   }
 }
 .introduction .introductionComponents .introDescription {
