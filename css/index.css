@@ -145,6 +145,12 @@ header .loginBtn a {
     margin-left: 10px;
   }
 }
+@media (max-width: 1500px) {
+  .introduction .introductionComponents img {
+    width: 500px;
+    height: 300px;
+  }
+}
 .introduction .introductionComponents .introDescription {
   font-family: 'Baloo Paaji 2', cursive;
   font-size: 20px;
@@ -179,7 +185,7 @@ header .loginBtn a {
     font-size: 15px;
   }
 }
-@media (max-width: 1500) {
+@media (max-width: 1500px) {
   .introduction .introductionComponents .introDescription {
     padding-left: 150px;
   }
@@ -198,7 +204,7 @@ header .loginBtn a {
     font-size: 50px;
   }
 }
-@media (max-width: 1500) {
+@media (max-width: 1500px) {
   .introduction .introductionComponents .introDescription h2 {
     font-size: 30px;
   }
@@ -297,6 +303,11 @@ header .loginBtn a {
     width: 100px;
   }
 }
+@media (max-width: 1500px) {
+  .introductionAbout .middlePart .teamMembersDescriptions1 .student {
+    width: 350px;
+  }
+}
 .introductionAbout .middlePart .teamMembersDescriptions1 .student .studentDescription {
   text-align: center;
   margin-right: 70px;
@@ -359,6 +370,11 @@ header .loginBtn a {
 @media (max-width: 600px) {
   .introductionAbout .middlePart .teamMembersDescriptions2 .student {
     width: 100px;
+  }
+}
+@media (max-width: 1500px) {
+  .introductionAbout .middlePart .teamMembersDescriptions2 .student {
+    width: 250px;
   }
 }
 .introductionAbout .middlePart .teamMembersDescriptions2 .student .studentDescription {
@@ -439,6 +455,11 @@ header .loginBtn a {
 @media (max-width: 800px) {
   .introductionAbout .introDescriptionAbout p {
     margin-left: 100px;
+  }
+}
+@media (max-width: 1500px) {
+  .introductionAbout .introDescriptionAbout p {
+    margin-left: 400px;
   }
 }
 .middle-section {
