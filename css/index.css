@@ -104,11 +104,14 @@ header .loginBtn {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 400px;
-  font-size: 15px;
+  width: 500px;
+  font-size: 20px;
 }
 .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions1 .student img {
   width: 200px;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-top: 20px;
 }
 .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 {
   display: flex;
@@ -119,11 +122,14 @@ header .loginBtn {
   flex-direction: column;
   text-align: center;
   width: 400px;
-  font-size: 15px;
+  font-size: 20px;
   margin-top: 30px;
 }
 .introductionAbout .introductionComponentsAbout .middlePart .teamMembersDescriptions2 .student img {
   width: 200px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .introductionAbout .introductionComponentsAbout .introDescriptionAbout {
   font-family: 'Baloo Paaji 2', cursive;
@@ -135,9 +141,11 @@ header .loginBtn {
 }
 .introductionAbout .introductionComponentsAbout .introDescriptionAbout h2 {
   font-size: 50px;
+  text-align: center;
+  margin-left: 0px;
 }
 .introductionAbout .introductionComponentsAbout .introDescriptionAbout p {
-  margin-left: 500px;
+  margin-left: 600px;
   text-align: center;
   width: 600px;
 }
@@ -231,11 +239,9 @@ header .loginBtn {
   font-family: 'Baloo Paaji 2', cursive;
 }
 .bottom-section .bottom-content .favoritesMainTitle {
-  background-color: floralwhite;
   font-size: 60px;
   font-family: 'Baloo Paaji 2', cursive;
   text-align: center;
-  border-bottom: 2px solid black;
 }
 .bottom-section .bottom-content .favoritesListSection1 {
   position: relative;
@@ -261,11 +267,11 @@ header .loginBtn {
   font-size: 50px;
   font-family: 'Baloo Paaji 2', cursive;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 200px;
   width: 1000px;
 }
 .bottom-section .bottom-content .favoritesListSection1 .columnsBottom1 .favoritesListBox .list123 {
-  background-color: honeydew;
+  background-color: rgba(240, 255, 240, 0.4);
 }
 .bottom-section .bottom-content .favoritesListSection2 {
   position: relative;
@@ -293,11 +299,11 @@ header .loginBtn {
   font-size: 50px;
   font-family: 'Baloo Paaji 2', cursive;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 200px;
   width: 1000px;
 }
 .bottom-section .bottom-content .favoritesListSection2 .columnsBottom2 .favoritesListBox .list123 {
-  background-color: antiquewhite;
+  background-color: rgba(250, 235, 215, 0.4);
 }
 .bottom-section .bottom-content .favoritesListSection3 {
   position: relative;
@@ -325,7 +331,7 @@ header .loginBtn {
   font-size: 50px;
   font-family: 'Baloo Paaji 2', cursive;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 200px;
   width: 1000px;
 }
 .bottom-section .bottom-content .favoritesListBox {
@@ -335,7 +341,7 @@ header .loginBtn {
 .bottom-section .bottom-content .favoritesListBox .list123 {
   margin: 30px;
   padding: 20px;
-  background-color: azure;
+  background-color: rgba(240, 255, 255, 0.4);
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
