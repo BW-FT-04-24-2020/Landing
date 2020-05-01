@@ -31,7 +31,7 @@ header{
         padding-right: 15px;
       }
       @media @mobile{
-        padding-left: 100px;
+        padding-left: 10px;
 
       }
 
@@ -81,6 +81,11 @@ header{
     .introductionComponents{
       display:flex;
       justify-content: center;
+      @media @mobile{
+        flex-direction: column;
+        padding-left: 10px;
+        
+      }
       
   
       img{
@@ -95,15 +100,19 @@ header{
         @media @desktop{
           width: 40%;
           height: 50%;
-          margin-left: 40px;
+          margin-left: 80px;
           margin-right: 50px;
+          
         }
 
         @media @mobile{
-          margin-top: 400px;
+          margin-top: 100px;
           margin-right: 50px;
-          margin-left: 10px;
-          width: 30%;
+          margin-left: 80px;
+          width: 60%;
+          height: 50%;
+            
+          }
           
         }
 
@@ -117,10 +126,10 @@ header{
           margin-left: 10px;
         }
 
-        //@media @higher{
-          //width: 500px;
-          //height:300px;
-      //}
+        @media @higher{
+          width: 500px;
+          height:300px;
+      }
       }
       .introDescription{
         font-family: @baloo;
@@ -176,6 +185,7 @@ header{
             }
             @media @mobile{
               margin-left: 80px;
+              width: 100px;
             }
             @media @middlelow{
               margin-left:70px;
@@ -195,7 +205,7 @@ header{
       }
       
     }
-  }
+  
 
   .introductionAbout{
     background-color: DarkSeaGreen;

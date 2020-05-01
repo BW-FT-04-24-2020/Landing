@@ -44,7 +44,7 @@ header nav {
 }
 @media ( max-width: 500px ) {
   header nav {
-    padding-left: 100px;
+    padding-left: 10px;
   }
 }
 @media (max-width: 400px) {
@@ -98,7 +98,7 @@ header .loginBtn a {
     height: 30px;
   }
 }
-@media (max-width: 910px) {
+@media (min-width: 910px) {
   header .loginBtn {
     width: 80px;
     font-size: 15px;
@@ -110,6 +110,12 @@ header .loginBtn a {
 .introduction .introductionComponents {
   display: flex;
   justify-content: center;
+}
+@media ( max-width: 500px ) {
+  .introduction .introductionComponents {
+    flex-direction: column;
+    padding-left: 10px;
+  }
 }
 .introduction .introductionComponents img {
   width: 1000px;
@@ -125,30 +131,37 @@ header .loginBtn a {
   .introduction .introductionComponents img {
     width: 40%;
     height: 50%;
-    margin-left: 40px;
+    margin-left: 80px;
     margin-right: 50px;
   }
 }
 @media ( max-width: 500px ) {
   .introduction .introductionComponents img {
-    margin-top: 400px;
+    margin-top: 100px;
     margin-right: 50px;
-    margin-left: 10px;
-    width: 30%;
+    margin-left: 80px;
+    width: 60%;
+    height: 50%;
   }
 }
-@media (max-width: 600px) {
-  .introduction .introductionComponents img {
+@media (min-width: 600px) {
+  .introduction .introductionComponents {
     margin-top: 400px;
   }
 }
 @media (max-width: 400px) {
-  .introduction .introductionComponents img {
+  .introduction .introductionComponents {
     margin-top: 300px;
     margin-left: 10px;
   }
 }
-.introduction .introductionComponents .introDescription {
+@media (min-width: 1500px) {
+  .introduction .introductionComponents {
+    width: 500px;
+    height: 300px;
+  }
+}
+.introduction .introDescription {
   font-family: 'Baloo Paaji 2', cursive;
   font-size: 20px;
   padding-top: 300px;
@@ -157,7 +170,7 @@ header .loginBtn a {
   transform: translate(-10%, -15%);
 }
 @media (min-width: 1000px) {
-  .introduction .introductionComponents .introDescription {
+  .introduction .introDescription {
     width: 55%;
     height: 65%;
     margin-left: 0px;
@@ -166,47 +179,47 @@ header .loginBtn a {
     padding-left: 100px;
   }
 }
-@media (max-width: 910px) {
-  .introduction .introductionComponents .introDescription {
+@media (min-width: 910px) {
+  .introduction .introDescription {
     font-size: 15px;
     width: 300px;
   }
 }
-@media (max-width: 600px) {
-  .introduction .introductionComponents .introDescription {
+@media (min-width: 600px) {
+  .introduction .introDescription {
     margin-left: 40px;
   }
 }
 @media (max-width: 400px) {
-  .introduction .introductionComponents .introDescription {
+  .introduction .introDescription {
     font-size: 15px;
   }
 }
 @media (min-width: 1500px) {
-  .introduction .introductionComponents .introDescription {
+  .introduction .introDescription {
     padding-left: 150px;
   }
 }
-.introduction .introductionComponents .introDescription h2 {
+.introduction .introDescription h2 {
   font-size: 50px;
   transform: translate(-3%, -10%);
 }
 @media (min-width: 1000px) {
-  .introduction .introductionComponents .introDescription h2 {
+  .introduction .introDescription h2 {
     font-size: 30px;
   }
 }
 @media (max-width: 400px) {
-  .introduction .introductionComponents .introDescription h2 {
+  .introduction .introDescription h2 {
     font-size: 50px;
   }
 }
 @media (min-width: 1500px) {
-  .introduction .introductionComponents .introDescription h2 {
+  .introduction .introDescription h2 {
     font-size: 30px;
   }
 }
-.introduction .introductionComponents .introDescription .btn {
+.introduction .introDescription .btn {
   font-size: 20px;
   font-family: 'Baloo Paaji 2', cursive;
   display: block;
@@ -223,33 +236,34 @@ header .loginBtn a {
   transform: translate(-15%, -20%);
 }
 @media (min-width: 1000px) {
-  .introduction .introductionComponents .introDescription .btn {
+  .introduction .introDescription .btn {
     width: 125px;
     margin-left: 140px;
   }
 }
-@media (max-width: 910px) {
-  .introduction .introductionComponents .introDescription .btn {
+@media (min-width: 910px) {
+  .introduction .introDescription .btn {
     margin-left: 110px;
   }
 }
 @media ( max-width: 500px ) {
-  .introduction .introductionComponents .introDescription .btn {
+  .introduction .introDescription .btn {
     margin-left: 80px;
+    width: 100px;
   }
 }
-@media (max-width: 600px) {
-  .introduction .introductionComponents .introDescription .btn {
+@media (min-width: 600px) {
+  .introduction .introDescription .btn {
     margin-left: 70px;
   }
 }
 @media (max-width: 800px) {
-  .introduction .introductionComponents .introDescription .btn {
+  .introduction .introDescription .btn {
     margin-left: 100px;
   }
 }
 @media (max-width: 400px) {
-  .introduction .introductionComponents .introDescription .btn {
+  .introduction .introDescription .btn {
     width: 100px;
     font-size: 15px;
     margin-left: 60px;
@@ -290,12 +304,12 @@ header .loginBtn a {
     margin-right: 20px;
   }
 }
-@media (max-width: 910px) {
+@media (min-width: 910px) {
   .introductionAbout .middlePart .teamMembersDescriptions1 .student {
     width: 150px;
   }
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .introductionAbout .middlePart .teamMembersDescriptions1 .student {
     width: 100px;
   }
@@ -328,7 +342,7 @@ header .loginBtn a {
     margin-right: 10px;
   }
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .introductionAbout .middlePart .teamMembersDescriptions1 .student img {
     width: 100px;
   }
@@ -366,12 +380,12 @@ header .loginBtn a {
     margin-left: 30px;
   }
 }
-@media (max-width: 910px) {
+@media (min-width: 910px) {
   .introductionAbout .middlePart .teamMembersDescriptions2 .student {
     width: 150px;
   }
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .introductionAbout .middlePart .teamMembersDescriptions2 .student {
     width: 100px;
   }
@@ -403,7 +417,7 @@ header .loginBtn a {
     margin-left: 0px;
   }
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .introductionAbout .middlePart .teamMembersDescriptions2 .student img {
     width: 100px;
   }
@@ -427,7 +441,7 @@ header .loginBtn a {
     padding-left: 0px;
   }
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .introductionAbout .introDescriptionAbout {
     font-size: 15px;
   }
@@ -459,7 +473,7 @@ header .loginBtn a {
     margin-left: 0px;
   }
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .introductionAbout .introDescriptionAbout p {
     margin-left: 00px;
   }
@@ -491,7 +505,7 @@ header .loginBtn a {
     height: 2200px;
   }
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .middle-section img {
     height: 2000px;
   }
@@ -510,7 +524,7 @@ header .loginBtn a {
 .middle-section .columns h3 {
   font-size: 50px;
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .middle-section .columns h3 {
     font-size: 40px;
   }
@@ -523,7 +537,7 @@ header .loginBtn a {
 .middle-section .columns .columns123Div {
   display: flex;
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .middle-section .columns .columns123Div {
     display: flex;
     flex-direction: column;
@@ -548,7 +562,7 @@ header .loginBtn a {
     width: 150px;
   }
 }
-@media (max-width: 910px) {
+@media (min-width: 910px) {
   .middle-section .columns .columns123Div .column123 {
     width: 150px;
   }
@@ -556,7 +570,7 @@ header .loginBtn a {
 .middle-section .columns .columns456Div {
   display: flex;
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .middle-section .columns .columns456Div {
     display: flex;
     flex-direction: column;
@@ -581,7 +595,7 @@ header .loginBtn a {
     width: 150px;
   }
 }
-@media (max-width: 910px) {
+@media (min-width: 910px) {
   .middle-section .columns .columns456Div .column456 {
     width: 150px;
   }
