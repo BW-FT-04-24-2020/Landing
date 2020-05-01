@@ -312,6 +312,11 @@ header .loginBtn a {
   text-align: center;
   margin-right: 70px;
 }
+@media ( max-width: 500px ) {
+  .introductionAbout .middlePart .teamMembersDescriptions1 .student {
+    margin-left: 50px;
+  }
+}
 .introductionAbout .middlePart .teamMembersDescriptions1 .student img {
   width: 200px;
   border-radius: 10px;
@@ -333,6 +338,7 @@ header .loginBtn a {
 @media ( max-width: 500px ) {
   .introductionAbout .middlePart .teamMembersDescriptions1 .student img {
     margin-bottom: 15px;
+    margin-left: 100px;
   }
 }
 .introductionAbout .middlePart .teamMembersDescriptions2 {
@@ -381,6 +387,11 @@ header .loginBtn a {
   text-align: center;
   margin-right: 50px;
 }
+@media ( max-width: 500px ) {
+  .introductionAbout .middlePart .teamMembersDescriptions2 .student {
+    margin-left: 120px;
+  }
+}
 .introductionAbout .middlePart .teamMembersDescriptions2 .student img {
   width: 200px;
   border-radius: 10px;
@@ -401,6 +412,7 @@ header .loginBtn a {
 @media ( max-width: 500px ) {
   .introductionAbout .middlePart .teamMembersDescriptions2 .student img {
     margin-bottom: 1px;
+    margin-left: 70px;
   }
 }
 .introductionAbout .introDescriptionAbout {
@@ -444,7 +456,8 @@ header .loginBtn a {
 @media ( max-width: 500px ) {
   .introductionAbout .introDescriptionAbout p {
     width: 300px;
-    margin-right: 20px;
+    margin-right: 200px;
+    margin-left: 0px;
   }
 }
 @media (max-width: 600px) {
@@ -459,7 +472,7 @@ header .loginBtn a {
 }
 @media (max-width: 1500px) {
   .introductionAbout .introDescriptionAbout p {
-    margin-left: 400px;
+    margin-left: 200px;
   }
 }
 .middle-section {
