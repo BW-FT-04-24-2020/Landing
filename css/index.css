@@ -308,7 +308,7 @@ header .loginBtn a {
 }
 @media ( max-width: 500px ) {
   .introduction .introductionComponents .introDescription .btn {
-    margin-left: 80px;
+    margin-left: 100px;
     width: 100px;
   }
 }
